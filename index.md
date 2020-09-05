@@ -4,7 +4,25 @@
 
 UNDER PROGRESS
 
-Useless Bot is a 
+Useless Bot is a discord bot that help help you in some sort of way.
+
+Useless Bot can tell you the current weather or give you the forecast in a area.
+
+Useless Bot can play music from youtube.
+
+Useless Bot can tell you jokes and jokes of the day.
+
+Useless Bot can show you memes or pictures from reddit.
+
+Useless Bot can give you minecraft player or server information.
+
+Useless Bot has games to play like minesweeper, slots, rock paper scissors and more!
+
+Useless Bot also has a economy system where players get coins every time they text.
+
+### Prefixes
+
+You can talk to Useless Bot by using **hey useless bot** or **hub**
 
 ### Markdown
 
