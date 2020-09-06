@@ -22,7 +22,9 @@ Useless Bot also has a economy system where players get coins every time they te
 
 ### Prefixes
 
-You can talk to Useless Bot by using **hey useless bot** or **hub**
+You can talk to Useless Bot by using **hey useless bot** or **hub**.
+
+In the commands section we use hub as the prefix but you can also use hey useless bot if you don't want to be rude to Useless Bot.
 
 ### Markdown
 
@@ -50,7 +52,17 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Commands
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Vivtorsing/UselessBot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+| Command | What it does |
+| ------- | ------------ |
+| hub help me | Where you get the list of Useless Bot commands |
+| hub server | Where you can join Useless Bot server |
+| hub invite | Where you can invite Useless Bot to your server |
+| hub help weather | Where you get a list of weather commands |
+| hub help music | Where you get a list of music commands |
+| hub help joke | Where you get a list of joke commands |
+| hub help meme | Where you get a list of meme commands |
+| hub help other | Where you get a list of other commands |
+| hub vote | Where you can vote for Useless Bot |
 
 ### Support or Contact
 
@@ -59,3 +71,8 @@ Join our [Discord Server](https://discord.gg/zsUuNxf) to ask for help or talk to
 Did you find a bug in Useless Bot? If so please report it [here!](https://bitbucket.org/Vivtorsing/useless-bot/issues?status=new&status=open)
 
 Want to see what we are teaching Useless Bot? If so come [here!](https://trello.com/b/wmocgz3u/useless-bot)
+
+### Donate
+Please donate so we can continue updating Useless Bot and keep Useless Bot up 24/7.
+
+[**Donate**](https://www.patreon.com/UselessBot)
