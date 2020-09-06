@@ -52,7 +52,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Commands
 
-| Command | What it does |
+| Commands | What it does |
 | ------- | ------------ |
 | hub help me | Where you get the list of Useless Bot commands |
 | hub server | Where you can join Useless Bot server |
@@ -63,6 +63,46 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 | hub help meme | Where you get a list of meme commands |
 | hub help other | Where you get a list of other commands |
 | hub vote | Where you can vote for Useless Bot |
+
+I have 5 sercet commands! Can you find them all? If you find them keep them a sercet.
+
+### Weather Commands
+
+| Commands | What it does |
+| ------- | ------------ |
+| hub weather (zip code) | Where you get the current weather for that area |
+| hub forecast (zip code) | Where you get 3 day weather forecast for that area |
+
+### Music Commands
+
+| Commands | What it does |
+| ------- | ------------ |
+| hub play (youtube url) | Where Useless Bot plays your song |
+| hub leave | Where you make Useless Bot leave the call |
+
+**Note**: The leave command is glitchly! It only works when your in the voice call while useless bot is playing music.
+
+**Note**: The music command sometimes don't work. Working on a solution for this issue.
+
+### Joke Commands
+
+| Commands | What it does |
+| ------- | ------------ |
+| hub joke dad  | Where Useless Bot gives you a dad joke |
+| hub joke cn | Where Useless Bot gives you a Chunk Norris joke |
+| hub joke custom (name) | Where Useless Bot gives you a custom joke |
+| hub jotd blonde  | Where Useless Bot gives you the joke of the day of blonde |
+| hub jotd knockknock  | Where Useless Bot gives you the joke of the day of knock knock |
+| hub jotd animal  | Where Useless Bot gives you the joke of the day of animals |
+| hub jotd jod  | Where Useless Bot gives you the joke of the day of jod |
+
+### Meme Commands
+
+| Commands | What it does |
+| ------- | ------------ |
+| hub memes | Where Useless Bot gives you memes |
+| hub meme anime | Where Useless Bot gives you a anime meme |
+| hub meme minecraft | Where Useless Bot gives you a minecraft meme |
 
 ### Support or Contact
 
