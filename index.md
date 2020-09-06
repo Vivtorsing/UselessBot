@@ -2,6 +2,8 @@
 
 ![Useless Bot Logo](https://images.discordapp.net/avatars/683743410548768806/3abd7dfec18111b8640674c56df90f62.png?size=256)
 
+![useless gif](/uselessbotupdown.gif)
+
 UNDER PROGRESS
 
 Useless Bot is a discord bot that help help you in some sort of way.
