@@ -2,8 +2,6 @@
 
 ![useless gif](/uselessbotupdown.gif)
 
-UNDER PROGRESS
-
 Useless Bot is a discord bot that help help you in some sort of way.
 
 Useless Bot can tell you the current weather or give you the forecast in a area.
@@ -26,31 +24,11 @@ You can talk to Useless Bot by using **hey useless bot** or **hub**.
 
 In the commands section we use hub as the prefix but you can also use hey useless bot if you don't want to be rude to Useless Bot.
 
-### Markdown
+### Commands Shortcuts
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Help Me](https://vivtorsing.github.io/UselessBot/#help-me-commands) | [Weather](https://vivtorsing.github.io/UselessBot/#weather-commands) | [Music](https://vivtorsing.github.io/UselessBot/#music-commands) | [Joke](https://vivtorsing.github.io/UselessBot/#joke-commands) | [meme](https://vivtorsing.github.io/UselessBot/#meme-commands) | [Other](https://vivtorsing.github.io/UselessBot/#other-commands)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Commands
+### Help Me Commands
 
 | Commands | What it does |
 | ------- | ------------ |
@@ -126,6 +104,12 @@ I have 5 sercet commands! Can you find them all? If you find them keep them a se
 | hub time | Where you can check the time |
 | hub version | Where you can check Useless Bot version and updates |
 | hub report | Where you can request a command, report a bug, or see my progress on Useless Bot |
+
+### Invite
+
+[**[Invite]**](https://discordapp.com/oauth2/authorize?client_id=683743410548768806&scope=bot&permissions=3590208)
+
+With this button you can invite Useless Bot to your server!
 
 ### Support or Contact
 
