@@ -104,6 +104,29 @@ I have 5 sercet commands! Can you find them all? If you find them keep them a se
 | hub meme anime | Where Useless Bot gives you a anime meme |
 | hub meme minecraft | Where Useless Bot gives you a minecraft meme |
 
+### Other Commands
+
+| Commands | What it does |
+| ------- | ------------ |
+| hub reddit (reddit) | Where Useless Bot gives you a random picture from that reddit |
+| hub minesweeper | Where Useless Bot gives you a minesweeper game |
+| hub anime | Where Useless Bot gives you a picture of anime |
+| hub food | Where Useless Bot gives you a random picture of food |
+| hub fruit | Where Useless Bot gives you a random fruit emoji |
+| hub 8ball (question) | Where you can ask a question to Useless Bot and Useless Bot will give you an answer |
+| hub mc player (minecraft username) | Where Useless Bot gives you information on a minecraft player |
+| hub mc server (minecraft server ip) | Where Useless Bot gives you information on a minecraft server |
+| hub card | Where Useless Bot gives you a random card |
+| hub rps (choice) | Where you play rock paper scissors against Useless Bot |
+| hub slots | Where you play slots |
+| hub ping | Where you can check Useless Bot ping |
+| hub poll (question) | Where you can make a poll with your question |
+| hub icon | Where Useless Bot gives you your profile picture |
+| hub status | Where you can check Useless Bot status |
+| hub time | Where you can check the time |
+| hub version | Where you can check Useless Bot version and updates |
+| hub report | Where you can request a command, report a bug, or see my progress on Useless Bot |
+
 ### Support or Contact
 
 Join our [Discord Server](https://discord.gg/zsUuNxf) to ask for help or talk to us.
