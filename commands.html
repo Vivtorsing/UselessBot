@@ -1,12 +1,14 @@
 <html>
   <head>
     <title>Useless Bot Commands</title>
+    <link rel="icon" type="image/x-icon" src="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       #mySidenav a {
         transition: 0.3s;
         margin-top: 10px;
         text-align: center;
-        padding: 125px;
+        padding: 12px;
         width: 100px;
         text-decoration: none;
         font-size: 20px;
@@ -19,7 +21,7 @@
         transition: 0.3s;
         margin-top: 10px;
         text-align: center;
-        padding: 60px;
+        padding: 12px;
         width: 100px;
         text-decoration: none;
         font-size: 20px;
@@ -42,6 +44,7 @@
       .desc {
         font-size: 25px;
         color: white;
+        text-align: center;
       }
       .smalltitle {
         font-size: 30px;
@@ -68,7 +71,7 @@
     </style>
   </head>
   <body style="background-color: #2C2F33;">
-    <div id="mySidenav" class="sidenav" style="padding: 10px;">
+    <div id="mySidenav" class="sidenav" style="padding: 10; text-align:center;">
       <a href="index.html">Home</a>
       <a href="commands.html">Commands</a>
       <a href="premium.html">Premium</a>
@@ -77,8 +80,11 @@
     <div class="title"><b>Useless Bot Commands</b></div>
     <img src="uselessbot.png" class="centerimage" style="width: 25%">
     <hr>
-    <p class="desc"></p>
-    <div id="Commandnav" class="commandnav" style="padding: 10px;">
+    <p class="desc">Notice:<br/>
+      Users now need to use slash commands to communicate to Useless Bot
+    </p>
+    <hr>
+    <div id="Commandnav" class="commandnav" style="padding: 10px; text-align:center;">
       <a href="#help">Help</a>
       <a href="#weather">Weather</a>
       <a href="#music">Music</a>
@@ -92,297 +98,307 @@
     <p></p>
     <p id="help" class="smalltitle"><b>Help Commands</b></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub help </div>
+      <div style="color: #ff9bff; font-size: 25px;">/help </div>
       Where you get a list of Useless Bot commands
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub server </div>
+      <div style="color: #ff9bff; font-size: 25px;">/server </div>
       Where you can join Useless Bot server
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub invite </div>
+      <div style="color: #ff9bff; font-size: 25px;">/invite </div>
       Where you can invite Useless Bot to your server
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub help weather </div>
+      <div style="color: #ff9bff; font-size: 25px;">/help weather </div>
       Where you get a list of weather commands
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub help music </div>
+      <div style="color: #ff9bff; font-size: 25px;">/help music </div>
       Where you get a list of music commands
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub help joke </div>
+      <div style="color: #ff9bff; font-size: 25px;">/help joke </div>
       Where you get a list of joke commands
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub help meme </div>
+      <div style="color: #ff9bff; font-size: 25px;">/help meme </div>
       Where you get a list of meme commands
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub help economy </div>
+      <div style="color: #ff9bff; font-size: 25px;">/help economy </div>
       Where you get a list of economy commands
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub help other </div>
+      <div style="color: #ff9bff; font-size: 25px;">/help other </div>
       Where you get a list of other commands
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub vote </div>
+      <div style="color: #ff9bff; font-size: 25px;">/vote </div>
       Where you can vote for Useless Bot
     </div>
     <p style="font-size: 7px;"></p>
     <p id="weather" class="smalltitle"><b>Weather Commands</b></p>
     <div class="commands">
-      <div style="color: #ff9bff; font-size: 25px;">hub weather (location) </div>
+      <div style="color: #ff9bff; font-size: 25px;">/weather (location) </div>
       Where Useless Bot gives you the weather
     </div>
     <p style="font-size: 7px;"></p>
     <p id="music" class="smalltitle"><b>Music Commands</b></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub play (youtube url) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/play (youtube url) </div>
       Where Useless Bot plays you music
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub search (music) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/search (music) </div>
       Where you can search for music and listen to it
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub leave </div>
+    <div style="color: #ff9bff; font-size: 25px;">/leave </div>
       Where you can make Useless Bot leave the call
     </div>
     <p style="font-size: 7px;"></p>
     <p id="joke" class="smalltitle"><b>Joke Commands</b></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub joke dad </div>
+    <div style="color: #ff9bff; font-size: 25px;">/joke dad </div>
       Where Useless Bot gives you a dad joke
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub joke cn </div>
+    <div style="color: #ff9bff; font-size: 25px;">/joke cn </div>
       Where Useless Bot gives you a Chuck Norris joke
+    </div>
+    <p style="font-size: 7px;"></p>
+    <div class="commands">
+    <div style="color: #ff9bff; font-size: 25px;">/joke custom (name) </div>
+      Where Useless Bot gives you a custom joke
+    </div>
+    <p style="font-size: 7px;"></p>
+    <div class="commands">
+    <div style="color: #ff9bff; font-size: 25px;">/jotd blonde </div>
+      Where Useless Bot gives you the joke of the day of blonde
+    </div>
+    <p style="font-size: 7px;"></p>
+    <div class="commands">
+    <div style="color: #ff9bff; font-size: 25px;">/jotd knockknock </div>
+      Where Useless Bot gives you the joke of the day of knock knock
+    </div>
+    <p style="font-size: 7px;"></p>
+    <div class="commands">
+    <div style="color: #ff9bff; font-size: 25px;">/jotd animals </div>
+      Where Useless Bot gives you the joke of the day of animals
+    </div>
+    <p style="font-size: 7px;"></p>
+    <div class="commands">
+    <div style="color: #ff9bff; font-size: 25px;">/jotd jod </div>
+      Where Useless Bot gives you the joke of the day of jod
     </div>
     <p style="font-size: 7px;"></p>
     <p id="meme" class="smalltitle"><b>Meme Commands</b></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub meme </div>
+    <div style="color: #ff9bff; font-size: 25px;">/meme </div>
       Where Useless Bot gives you a random meme
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub meme anime </div>
+    <div style="color: #ff9bff; font-size: 25px;">/meme anime </div>
       Where Useless Bot gives you a anime meme
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub meme minecraft </div>
+    <div style="color: #ff9bff; font-size: 25px;">/meme minecraft </div>
       Where Useless Bot gives you a Minecraft meme
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub meme among </div>
+    <div style="color: #ff9bff; font-size: 25px;">/meme among </div>
       Where Useless Bot gives you a Among Us meme
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub meme wholesome </div>
+    <div style="color: #ff9bff; font-size: 25px;">/meme wholesome </div>
       Where Useless Bot gives you a wholesome meme
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub meme dank </div>
+    <div style="color: #ff9bff; font-size: 25px;">/meme dank </div>
       Where Useless Bot gives you a dank meme
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub meme discord </div>
+    <div style="color: #ff9bff; font-size: 25px;">/meme discord </div>
       Where Useless Bot gives you a discord meme
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub meme funny </div>
+    <div style="color: #ff9bff; font-size: 25px;">/meme funny </div>
       Where Useless Bot gives you a funny meme
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub meme party </div>
+    <div style="color: #ff9bff; font-size: 25px;">/meme party </div>
       Where Useless Bot gives you lots of memes
     </div>
     <p style="font-size: 7px;"></p>
     <p id="economy" class="smalltitle"><b>Economy Commands</b></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub daily </div>
+    <div style="color: #ff9bff; font-size: 25px;">/daily </div>
       Where Useless Bot gives you your daily
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub shop </div>
+    <div style="color: #ff9bff; font-size: 25px;">/shop </div>
       Where you can buy stuff
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub balance </div>
+    <div style="color: #ff9bff; font-size: 25px;">/balance </div>
       Where you can check your or other users balance
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub stats </div>
+    <div style="color: #ff9bff; font-size: 25px;">/stats </div>
       Where you can check your status
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub leaderboard </div>
+    <div style="color: #ff9bff; font-size: 25px;">/leaderboard </div>
       Where you can check the global leaderboard
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub work </div>
+    <div style="color: #ff9bff; font-size: 25px;">/work </div>
       Where you can work for money
     </div>
     <p style="font-size: 7px;"></p>
     <p id="other" class="smalltitle"><b>Other Commands</b></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub reddit (reddit) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/reddit (reddit) </div>
       Where Useless Bot gives you a random picture from that reddit
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub anime</div>
+    <div style="color: #ff9bff; font-size: 25px;">/anime</div>
       Where Useless Bot gives you a random picture of anime
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub food</div>
+    <div style="color: #ff9bff; font-size: 25px;">/food</div>
       Where Useless Bot gives you a random picture of food
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub stock (stock)</div>
-      Where Useless Bot gives you stock info
-    </div>
-    <p style="font-size: 7px;"></p>
-    <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub crypto (crypto) (currency)</div>
-      Where Useless Bot gives you the price of the crypto
-    </div>
-    <p style="font-size: 7px;"></p>
-    <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub exchange (from) (t0)</div>
-      Where Useless Bot gives you the exchange rate price
-    </div>
-    <p style="font-size: 7px;"></p>
-    <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub minesweeper </div>
+    <div style="color: #ff9bff; font-size: 25px;">/minesweeper </div>
       Where Useless Bot gives you a minesweeper game
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub rps (choice) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/rps (choice) </div>
       Where you play rock paper scissors against Useless Bot
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub slots </div>
+    <div style="color: #ff9bff; font-size: 25px;">/slots </div>
       Where you play slots
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub 8ball (question) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/8ball (question) </div>
       Where you ask a question to Useless Bot and get a response
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub magicconch (question) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/magicconch (question) </div>
       Where the Magic Conch Shell answers your question
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub love (tagged user) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/love (tagged user) </div>
       Where Useless Bot predict how much you love each other
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub poll (question) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/poll (question) </div>
       Where you can make a poll with a question
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub say (message) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/say (message) </div>
       Where you can make Useless Bot say something
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub code (message) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/code (message) </div>
       Where you turn your message into a secret code
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub mc player (minecraft username) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/mc player (minecraft username) </div>
       Where Useless Bot gives you infomation on a minecraft player
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub mc server (minecraft server ip) </div>
+    <div style="color: #ff9bff; font-size: 25px;">/mc server (minecraft server ip) </div>
       Where Useless Bot gives you information on a minecraft server
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub word </div>
+    <div style="color: #ff9bff; font-size: 25px;">/word </div>
       Where Useless Bot teaches you new words
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub fruit</div>
+    <div style="color: #ff9bff; font-size: 25px;">/fruit</div>
       Where Useless Bot gives you a random fruit emoji
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub card</div>
+    <div style="color: #ff9bff; font-size: 25px;">/card</div>
       Where Useless Bot gives you a random card
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub ping </div>
+    <div style="color: #ff9bff; font-size: 25px;">/ping </div>
       Where you can check Useless Bot ping
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub icon </div>
+    <div style="color: #ff9bff; font-size: 25px;">/icon </div>
       Where Useless Bot give you your or other users profile icon
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub status </div>
+    <div style="color: #ff9bff; font-size: 25px;">/status </div>
       Where you can check Useless Bot status
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub time </div>
+    <div style="color: #ff9bff; font-size: 25px;">/time </div>
       Where you can check the time
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub version </div>
+    <div style="color: #ff9bff; font-size: 25px;">/version </div>
       Where you can check Useless Bot version and updates
     </div>
     <p style="font-size: 7px;"></p>
     <div class="commands">
-    <div style="color: #ff9bff; font-size: 25px;">hub report </div>
+    <div style="color: #ff9bff; font-size: 25px;">/report </div>
       Where you can report a bug, request, or see Useless Bot progress
     </div>
     <p style="font-size: 7px;"></p>
     <p style="font-size: 50px;"></p>
-    <div class="copyright">Copyright © 2021 Useless Bot</div>
+    <div class="copyright">Copyright © <script>document.write(new Date().getFullYear())</script> Useless Bot</div>
   </body>
 </html>
