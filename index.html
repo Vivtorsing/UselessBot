@@ -1,6 +1,8 @@
 <html>
   <head>
     <title>Useless Bot</title>
+    <link rel="icon" type="image/x-icon" src="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="cYM7I_16M87YXDhiNzEKF80F293iklRyBi8nalrYAqo" />
     <meta name="description" content="Useless Bot is a Discord multipurpose bot that tells you the weather, forecast, play music, jokes, memes, reddit, minesweeper, anime, minecraft, 8ball, food, among us">
     {% seo %}
@@ -9,7 +11,7 @@
         transition: 0.3s;
         margin-top: 10px;
         text-align: center;
-        padding: 125px;
+        padding: 12px;
         width: 100px;
         text-decoration: none;
         font-size: 20px;
@@ -17,6 +19,60 @@
       }
       #mySidenav a:hover {
         color: #ff9bff;
+      }
+      .button {
+        border: none;
+        color: white;
+        width: 500px;
+        height: 180px;
+        border-top-left-radius:28px;
+        border-top-right-radius:28px;
+        border-bottom-left-radius:28px;
+        border-bottom-right-radius:28px;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background: linear-gradient(0deg, #5865F2, #ff9bff);
+        background-size: 400% 400%;
+         -webkit-animation: buttonAnimation 5s ease infinite;
+         -moz-animation: buttonAnimation 5s ease infinite;
+         animation: buttonAnimation 5s ease infinite;
+      }
+      .button:hover {
+        background: #ff9bff;
+        color: white;
+      }
+      @-webkit-keyframes buttonAnimation {
+          0%{background-position:51% 0%}
+          50%{background-position:50% 100%}
+          100%{background-position:51% 0%}
+      }
+      @-moz-keyframes buttonAnimation {
+          0%{background-position:51% 0%}
+          50%{background-position:50% 100%}
+          100%{background-position:51% 0%}
+      }
+      @keyframes buttonAnimation { 
+          0%{background-position:51% 0%}
+          50%{background-position:50% 100%}
+          100%{background-position:51% 0%}
+      }
+      .buttonContainer { 
+        height: 200px;
+        position: relative;
+      }
+      .buttonCenter {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
       }
       .centerimage {
         display: block;
@@ -45,7 +101,7 @@
     </style>
   </head>
   <body style="background-color: #2C2F33;">
-    <div id="mySidenav" class="sidenav" style="padding: 10px;">
+    <div id="mySidenav" class="sidenav" style="padding: 10; text-align:center;">
       <a href="index.html">Home</a>
       <a href="commands.html">Commands</a>
       <a href="premium.html">Premium</a>
@@ -65,24 +121,28 @@
       Useless Bot can give you minecraft player or server information <br/>
       Useless Bot has games like Minesweeper, slots, rock paper scissors and more! <br/>
       Useless Bot also has a economy system where everytime you chat you earn money! <br/>
-    </div>
-    <p style="font-size: 50px;"></p>
-    <div class="desc" style="text-align: center;">
-      Useless Bot started as a project during the pandemic. <br/>
-      I was bored and I wanted to learn how to program. <br/>
-      Working on this for over 7 months I learned a lot <br/>
-      But i did not expect Useless Bot to be in 1,000 Server! <br/>
-      Now Useless Bot is a fun hobby of mine! <br/>
+      <br/>
+      Useless Bot might sound useless but it is actually useful!!<br/>
+    </div><br/><br/>
+    <div class="desc" style="text-align: center; font-size: 32px">
+      Useless Bot is currently in <br/>
+      Over 3000 Servers!!!
     </div>
     <p class="desc"></p>
     <p class="smalltitle"><b>Prefixes</b></p>
     <div class="desc">
-      You can talk to Useless Bot by using <b style="color: #ff9bff;">hub</b> or <b style="color: #ff9bff;">hey useless bot</b>. <br/>
+      In order to communicate to Useless Bot you must use slash commands! <br/>
+      <!--You can talk to Useless Bot by using <b style="color: #ff9bff;">hub</b> or <b style="color: #ff9bff;">hey useless bot</b>. <br/>-->
     </div>
     <p class="desc"></p>
     <p class="smalltitle"><b>Invite</b></p>
-    <div class="desc">
-      <a href="https://discord.com/oauth2/authorize?client_id=683743410548768806&scope=bot&permissions=3590208" target="_blank" style="color: #ff9bff;">Click me to invite Useless Bot!</a> <br/>
+    <div>
+      <div class="buttonContainer">
+        <div class="buttonCenter">
+          <!--<button class="button" onclick="https://discord.com/oauth2/authorize?client_id=683743410548768806&scope=bot&permissions=3590208">Click me to get Useless Bot in your server!</button><br/>-->
+          <a class="button" href="https://discord.com/oauth2/authorize?client_id=683743410548768806&scope=bot&permissions=3590208" target="_blank" style="font-size: 30px; line-height: 180px;">Click me to invite Useless Bot!</a>
+        </div>
+      </div>
     </div>
     <p class="desc"></p>
     <p class="smalltitle"><b>Donate</b></p>
@@ -99,6 +159,18 @@
       Want to see what we are teaching Useless Bot? <a href="https://trello.com/b/wmocgz3u/useless-bot" target="_blank" style="color: #ff9bff;">Teaching Room</a>
     </div>
     <p style="font-size: 50px;"></p>
-    <div class="copyright">Copyright © 2021 Useless Bot</div>
+    <div class="desc" style="text-align: center;">
+      Useless Bot started as a project during the pandemic. <br/>
+      I was bored and I wanted to learn how to code. <br/>
+      Working on this for over 7 months I learned a lot <br/>
+      But I did not expect Useless Bot to be in 1,000 Server! <br/>
+      Now Useless Bot is a fun hobby of mine! <br/>
+    </div>
+    <p style="font-size: 150px;"></p>
+    <div class="desc" style="text-align: center;">
+      What are you waiting for? Go invite Useless Bot! <br/>
+    </div>
+    <p style="font-size: 50px;"></p>
+    <div class="copyright">Copyright © <script>document.write(new Date().getFullYear())</script> Useless Bot</div>
   </body>
 </html>
