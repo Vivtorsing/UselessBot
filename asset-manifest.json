@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/UselessBot/static/css/main.e92b312b.css",
-    "main.js": "/UselessBot/static/js/main.dd05b99e.js",
+    "main.js": "/UselessBot/static/js/main.037a4edb.js",
     "static/js/453.9bd4468b.chunk.js": "/UselessBot/static/js/453.9bd4468b.chunk.js",
     "static/media/vivtorsinglogo.jpg": "/UselessBot/static/media/vivtorsinglogo.37360d1dc9a3bfc940a6.jpg",
     "static/media/uselessbot.png": "/UselessBot/static/media/uselessbot.1ef71250a9361ffb8276.png",
     "index.html": "/UselessBot/index.html",
     "main.e92b312b.css.map": "/UselessBot/static/css/main.e92b312b.css.map",
-    "main.dd05b99e.js.map": "/UselessBot/static/js/main.dd05b99e.js.map",
+    "main.037a4edb.js.map": "/UselessBot/static/js/main.037a4edb.js.map",
     "453.9bd4468b.chunk.js.map": "/UselessBot/static/js/453.9bd4468b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e92b312b.css",
-    "static/js/main.dd05b99e.js"
+    "static/js/main.037a4edb.js"
   ]
 }
