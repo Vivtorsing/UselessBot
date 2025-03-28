@@ -5,7 +5,6 @@ import "./styles.css";
 import Footer from "./Footer";
 import Nav from "./Nav";
 import UselessBotImage from "./images/uselessbot.png";
-import VivtorsingImage from "./images/vivtorsinglogo.jpg";
 
 function CustomButton({ children, onClick }) {
   return (
@@ -46,7 +45,7 @@ const developers = [
     {
       name: "Vivtorsing",
       description: "Lead Software Engineer - Built the core features and optimized the bot! Also built this webpage!",
-      image: VivtorsingImage,
+      image: UselessBotImage,
       youtube: "https://youtube.com/vivtorsing"
     },
     {
