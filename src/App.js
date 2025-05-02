@@ -7,6 +7,7 @@ import Premium from "./Premium";
 import Staff from "./Staff";
 import Terms from "./Terms";
 import Privacy from "./Privacy";
+import ReleaseNotes from "./ReleaseNotes";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/commands" element={<Commands />} />
         <Route path="/premium" element={<Premium />} />
+        <Route path="/releasenotes" element={<ReleaseNotes />} />
         <Route path="/staff" element={<Staff />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />

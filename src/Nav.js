@@ -9,6 +9,7 @@ export default function Nav() {
         <li><a href="#/" className="hover:text-pink-400">Home</a></li>
         <li><a href="#/commands" className="hover:text-pink-400">Commands</a></li>
         <li><a href="#/premium" className="hover:text-pink-400">Premium</a></li>
+        <li><a href="#/releasenotes" className="hover:text-pink-400">Release Notes</a></li>
         <li><a href="#/staff" className="hover:text-pink-400">Staff</a></li>
         </ul>
     </nav>

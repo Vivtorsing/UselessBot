@@ -42,18 +42,24 @@ function AnimatedSection({ children, direction = "left" }) {
 
 //all the developers
 const developers = [
-    {
-      name: "Vivtorsing",
-      description: "Lead Software Engineer - Built the core features and optimized the bot! Also built this webpage!",
-      image: UselessBotImage,
-      youtube: "https://youtube.com/vivtorsing"
-    },
-    {
-      name: "Vivtoria",
-      description: "Bug Tester - Wait why are you here?",
-      image: UselessBotImage,
-      youtube: "https://youtube.com/vivtorsing"
-    }
+  {
+    name: "V",
+    description: "Software Engineer - Implemented many features to the bot!",
+    image: UselessBotImage,
+    youtube: ""
+  },
+  {
+    name: "Vivtorsing",
+    description: "Lead Software Engineer - Built the core features and optimized the bot! Also built this webpage!",
+    image: UselessBotImage,
+    youtube: "https://youtube.com/vivtorsing"
+  },
+  {
+    name: "Vivtoria",
+    description: "Bug Tester - Wait why are you here?",
+    image: UselessBotImage,
+    youtube: "https://youtube.com/vivtorsing"
+  }
 ];
   
 

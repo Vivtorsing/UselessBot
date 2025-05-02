@@ -1,10 +1,11 @@
+//template
 import { useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { AnimatedBackground } from "animated-backgrounds";
 import "./styles.css";
 import Footer from "./Footer";
 import Nav from "./Nav";
-import UselessBotImage from "./images/uselessbot.png";
+import botImage from "./images/bot.png";
 
 function CustomButton({ children, onClick }) {
   return (
@@ -42,7 +43,7 @@ function AnimatedSection({ children, direction = "left" }) {
 
 export default function Premium() {
   useEffect(() => {
-    document.title = "Useless Bot Premium";
+    document.title = "Bot Premium";
   }, []);
 
   return (
@@ -56,10 +57,10 @@ export default function Premium() {
 
         {/*main section*/}
         <header className="flex flex-col items-center justify-center text-center mt-16">
-          <img src={UselessBotImage} alt="Bot Logo" className="w-32 h-32 mb-4" />
-          <h2 className="text-4xl font-bold">Useless Bot Premium</h2>
+          <img src={botImage} alt="Bot Logo" className="w-32 h-32 mb-4" />
+          <h2 className="text-4xl font-bold">Bot Premium</h2>
           <p className="text-gray-300 mt-2">Some extra features that might be cool!</p>
-          <CustomButton onClick={() => window.open("https://discord.com/oauth2/authorize?client_id=683743410548768806&scope=bot&permissions=3590208", "_blank")}>
+          <CustomButton onClick={() => window.open("https://discord.com", "_blank")}>
             Invite Now
           </CustomButton>
         </header>
@@ -75,59 +76,25 @@ export default function Premium() {
                     <thead>
                     <tr>
                         <th>Command</th>
-                        <th>Free Users</th>
-                        <th>Voted Users</th>
-                        <th>Premium Users</th>
+                        <th>Free Version</th>
+                        <th>Premium Version</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Command Cooldown</td>
-                        <td>None</td>
-                        <td>25% Less</td>
-                        <td>50% Less</td>
-                    </tr>  
-                    <tr>
-                        <td>AI Chat</td>
-                        <td>10 credits</td>
-                        <td>100 credits</td>
-                        <td>Unlimited credits</td>
-                    </tr>
-                    <tr>
-                        <td>AI Image</td>
-                        <td>10 credits</td>
-                        <td>100 credits</td>
-                        <td>Unlimited credits</td>
-                    </tr>
-                    <tr>
-                        <td>AI Speech</td>
-                        <td>10 credits</td>
-                        <td>100 credits</td>
-                        <td>Unlimited credits</td>
-                    </tr>
-                    <tr>
-                        <td>Economy Daily and Work</td>
-                        <td>No Bonus</td>
-                        <td>Vote Streak Multiplier X 1.1</td>
-                        <td>Multiplier X 5</td>
-                    </tr>
-                    <tr>
                         <td>Current Weather</td>
-                        <td>Basic</td>
                         <td>Basic</td>
                         <td>Advanced</td>
                     </tr>
                     <tr>
                         <td>Hourly Weather</td>
-                        <td>Basic</td>
-                        <td>Basic</td>
-                        <td>Advanced (24 Hours coming soon)</td>
+                        <td>None</td>
+                        <td>24 Hours</td>
                     </tr>
                     <tr>
                         <td>Forecast</td>
-                        <td>Basic</td>
-                        <td>Basic</td>
-                        <td>Advanced (7 Days coming soon)</td>
+                        <td>None</td>
+                        <td>7 Days</td>
                     </tr>
                     </tbody>
                 </table>
@@ -137,13 +104,7 @@ export default function Premium() {
                 <div className="commandFlex">
                 <button 
                     className="patreon-button"
-                    onClick={() => window.open("https://top.gg/bot/683743410548768806/vote", "_blank")}
-                >
-                    Vote For Useless Bot (It's Free!)
-                </button>
-                <button 
-                    className="patreon-button"
-                    onClick={() => window.open("https://www.patreon.com/UselessBot", "_blank")}
+                    onClick={() => window.open("https://www.patreon.com", "_blank")}
                 >
                     Support Us on Patreon 💖
                 </button>
