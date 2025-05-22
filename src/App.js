@@ -11,7 +11,7 @@ import ReleaseNotes from "./ReleaseNotes";
 
 function App() {
   return (
-    <HashRouter>
+    <Router basename="/UselessBot">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/commands" element={<Commands />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
-    </HashRouter>
+    </Router>
   )
 }
 

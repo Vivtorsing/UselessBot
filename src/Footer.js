@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-links">
-        <a href="#/terms">Terms of Service</a>
-        <a href="#/privacy">Privacy Policy</a>
+        <a href="/UselessBot/terms">Terms of Service</a>
+        <a href="/UselessBot/privacy">Privacy Policy</a>
       </div>
       <p className="copyright">&copy; {new Date().getFullYear()} Useless Bot. All rights reserved.</p>
     </footer>
