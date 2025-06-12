@@ -3,6 +3,26 @@ import { data } from "react-router-dom";
 
 const releaseNotes = [
   {
+    version: "V3.0 Pre Release 4",
+    date: "June 9, 2025",
+    sections: {
+      "Newest Feature": [
+        "This is something that I believe 50% will love and 50% will hate but I believe this can become super helpful and amazing for everyone!",
+        "You can now DM Useless Bot and have Ucy AI talk to you!!!!",
+        "WOO or BOO but wait isnt this just /ai chat? Nope it has a completely different model and system and it even remembers your past messages! We do not store your messages as Useless Bot can easily fetch your last messages from your DM! Thanks Discord! Good for me as I don't have enough storage to hold this data anyways and good for you as this is privacy!",
+        "Now there will be a bunch of bugs and issues as this runs from a completely different system and will be a pain to fix. So if you find any please let me know and I'll try to fix it!",
+        "I believe this feature can help many users as I have worked on something similar elsewhere that has helped tons of users! I have more features planned too!",
+      ],
+      "New Command": [
+        "/blackjack - A new command where you can play Blackjack!"
+      ],
+      "Other Stuff": [
+        "/poll - Now has more options and you can use multiple emojis (need to work on examples)",
+        "/leaderboard - Fixed a small comma bug fix"
+      ]
+    }
+  },
+  {
     version: "V3.0 Pre Release 3",
     date: "May 20, 2025",
     sections: {
