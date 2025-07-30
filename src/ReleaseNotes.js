@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Nav from "./Nav";
 import uselessBotImage from "./images/uselessbot.png";
 import releaseNotes from "./releaseNotesData";
+import { CustomAnimation } from "./Animation";
 
 function AnimatedSection({ children, direction = "left" }) {
   const ref = useRef(null);
@@ -29,6 +30,13 @@ function AnimatedSection({ children, direction = "left" }) {
   );
 }
 
+//background color
+const customColor = [
+  { pos: 0, color: 'rgba(88, 101, 242, 0.5)' },
+  { pos: 0.5, color: 'rgba(255, 76, 210, 0.5)' },
+  { pos: 1, color: 'rgba(224, 227, 255, 0.5)' }
+];
+
 export default function ReleaseNotes() {
   useEffect(() => {
     document.title = "Release Notes";
@@ -37,7 +45,8 @@ export default function ReleaseNotes() {
   return (
     <div className="relative min-h-screen overflow-hidden">
       <div className="absolute inset-0 -z-10">
-        <AnimatedBackground animationName="auroraBorealis" blendMode="normal" />
+        <CustomAnimation color={customColor} />
+        {/*<AnimatedBackground animationName="auroraBorealis" blendMode="normal" />*/}
       </div>
 
       <div className="relative z-10 min-h-screen">

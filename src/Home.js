@@ -6,6 +6,7 @@ import "./styles.css";
 import Footer from "./Footer";
 import Nav from "./Nav";
 import UselessBotImage from "./images/uselessbot.png";
+import { CustomAnimation } from "./Animation";
 
 function CustomButton({ children, onClick }) {
   return (
@@ -50,7 +51,8 @@ export default function Home() {
     <div className="relative min-h-screen overflow-hidden">
       {/*background*/}
       <div className="absolute inset-0 -z-10">
-        <AnimatedBackground animationName="auroraBorealis" blendMode="normal" />
+        <CustomAnimation/>
+        {/*<AnimatedBackground animationName="auroraBorealis" blendMode="normal" />*/}
       </div>
       <div className="relative z-10 min-h-screen">
         <Nav />

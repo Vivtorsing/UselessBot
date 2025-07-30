@@ -5,6 +5,7 @@ import "./styles.css";
 import Footer from "./Footer";
 import Nav from "./Nav";
 import UselessBotImage from "./images/uselessbot.png";
+import { CustomAnimation } from "./Animation";
 
 function CustomButton({ children, onClick }) {
   return (
@@ -22,6 +23,13 @@ const sectionVariants = {
   left: { hidden: { opacity: 0, x: -50 }, visible: { opacity: 1, x: 0, transition: { duration: 0.6 } } },
   right: { hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0, transition: { duration: 0.6 } } }
 };
+
+//background color
+const customColor = [
+  { pos: 0, color: 'rgba(247, 178, 126, 0.5)' },
+  { pos: .5, color: 'rgba(230, 106, 123, 0.5)' },
+  { pos: 1, color: 'rgba(109, 185, 147, 0.5)' }
+];
 
 function AnimatedSection({ children, direction = "left" }) {
   const ref = useRef(null);
@@ -49,7 +57,8 @@ export default function Premium() {
     <div className="relative min-h-screen overflow-hidden">
       {/*background*/}
       <div className="absolute inset-0 -z-10">
-        <AnimatedBackground animationName="auroraBorealis" blendMode="normal" />
+        <CustomAnimation color={customColor}/>
+        {/*<AnimatedBackground animationName="auroraBorealis" blendMode="normal" />*/}
       </div>
       <div className="relative z-10 min-h-screen">
         <Nav />

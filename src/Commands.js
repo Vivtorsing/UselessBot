@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Nav from "./Nav";
 import "./styles.css";
 import UselessBotImage from "./images/uselessbot.png";
+import { CustomAnimation } from "./Animation";
 
 function CustomButton({ children, onClick }) {
   return (
@@ -16,6 +17,13 @@ function CustomButton({ children, onClick }) {
     </button>
   );
 }
+
+//background color
+const customColor = [
+  { pos: 0, color: 'rgba(0, 155, 255, 0.5)' },
+  { pos: 0.5, color: 'rgba(155, 0, 255, 0.5)' },
+  { pos: 1, color: 'rgba(255, 55, 85, 0.5)' }
+];
 
 //slide in animation
 const sectionVariants = {
@@ -42,6 +50,9 @@ function AnimatedSection({ children, direction = "left" }) {
 
 //all the commands
 const commandCategories = {
+  Special: [
+    {name: "DM Useless Bot", description: "Where you can DM Useless Bot and talk to Ucy AI!" }
+  ],
   Main: [
     { name: "/botstatus", description: "Where you can check the status of Useless Bot" },
     { name: "/donate", description: "The place where you can donate and get premium features" },
@@ -59,6 +70,7 @@ const commandCategories = {
     { name: "/ai search (message)", description: "Where Ucy AI search the internet before answering your question" },
     { name: "/anime (type)", description: "Where you can get some anime" },
     { name: "/animegif (type)", description: "Where you can get some anime gifs" },
+    { name: "/blackjack", description: "Where you can play blackjack"},
     { name: "/joke (type)", description: "Where you can get some jokes" },
     { name: "/meme (type)", description: "Where you can get some memes" },
     { name: "/rps (choice)", description: "Where you can play rock paper scissors against Useless Bot" },
@@ -105,7 +117,8 @@ export default function Commands() {
     <div className="relative min-h-screen overflow-hidden">
       {/*background*/}
       <div className="absolute inset-0 -z-10">
-        <AnimatedBackground animationName="auroraBorealis" blendMode="normal" />
+        <CustomAnimation color={customColor}/>
+        {/*<AnimatedBackground animationName="auroraBorealis" blendMode="normal" />*/}
       </div>
 
       <div className="relative z-10 min-h-screen">
