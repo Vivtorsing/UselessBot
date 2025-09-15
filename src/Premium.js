@@ -11,7 +11,6 @@ function CustomButton({ children, onClick }) {
   return (
     <button
       onClick={onClick}
-      className="mt-4 px-6 py-2 bg-pink-500 hover:bg-pink-600 text-white font-bold rounded-lg transition"
     >
       {children}
     </button>
@@ -41,7 +40,6 @@ function AnimatedSection({ children, direction = "left" }) {
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={sectionVariants[direction]}
-      className="bg-[#23272A] p-6 rounded-lg shadow-lg"
     >
       {children}
     </motion.div>
@@ -54,29 +52,29 @@ export default function Premium() {
   }, []);
 
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div>
       {/*background*/}
-      <div className="absolute inset-0 -z-10">
+      <div>
         <CustomAnimation color={customColor}/>
         {/*<AnimatedBackground animationName="auroraBorealis" blendMode="normal" />*/}
       </div>
-      <div className="relative z-10 min-h-screen">
+      <div>
         <Nav />
 
         {/*main section*/}
-        <header className="flex flex-col items-center justify-center text-center mt-16">
-          <img src={UselessBotImage} alt="Bot Logo" className="w-32 h-32 mb-4" />
-          <h2 className="text-4xl font-bold">Useless Bot Premium</h2>
-          <p className="text-gray-300 mt-2">Some extra features that might be cool!</p>
+        <header>
+          <img src={UselessBotImage} alt="Bot Logo" />
+          <h2>Useless Bot Premium</h2>
+          <p>Some extra features that might be cool!</p>
           <CustomButton onClick={() => window.open("https://discord.com/oauth2/authorize?client_id=683743410548768806&scope=bot&permissions=3590208", "_blank")}>
             Invite Now
           </CustomButton>
         </header>
 
-        <section className="mt-16 px-6">
+        <section>
             <AnimatedSection direction="right">
-                <h3 className="text-2xl font-bold text-pink-400">Premium Features</h3>
-                <p className="text-gray-300 mt-2">Upgrade for even more powerful commands!</p>
+                <h3>Premium Features</h3>
+                <p>Upgrade for even more powerful commands!</p>
                 
                 {/*oremium commands table*/}
                 <div className="commandFlex">

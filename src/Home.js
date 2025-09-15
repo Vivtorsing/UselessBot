@@ -22,7 +22,6 @@ function CustomButton({ children, onClick }) {
   return (
     <button
       onClick={onClick}
-      className="mt-4 px-6 py-2 bg-pink-500 hover:bg-pink-600 text-white font-bold rounded-lg transition"
     >
       {children}
     </button>
@@ -45,7 +44,6 @@ function AnimatedSection({ children, direction = "left" }) {
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={sectionVariants[direction]}
-      className="bg-[#23272A] p-6 rounded-lg shadow-lg"
     >
       {children}
     </motion.div>
@@ -200,17 +198,17 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div>
       {/*background*/}
-      <div className="absolute inset-0 -z-10">
+      <div>
         <CustomAnimation/>
         {/*<AnimatedBackground animationName="auroraBorealis" blendMode="normal" />*/}
       </div>
-      <div className="relative z-10 min-h-screen">
+      <div>
         <Nav />
 
         {/*main section*/}
-        <header className="flex flex-col items-center justify-center text-center mt-16">
+        <header>
           {/*<img src={UselessBotImage} alt="Bot Logo" className="w-32 h-32 mb-4" />*/}
           <motion.img 
             src={UselessBotImage} 
@@ -220,8 +218,8 @@ export default function Home() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1 }}
           />
-          <h2 className="text-4xl font-bold">Useless Bot</h2>
-          <p className="text-gray-300 mt-2">It might sound useless but it's actually kinda useful!</p>
+          <h2>Useless Bot</h2>
+          <p>It might sound useless but it's actually kinda useful!</p>
           <CustomButton onClick={() => window.open("https://discord.com/oauth2/authorize?client_id=683743410548768806&scope=bot&permissions=3590208", "_blank")}>
             Invite Now
           </CustomButton>
@@ -267,22 +265,22 @@ export default function Home() {
           />
         </section>
 
-        <section className="mt-16 px-6">
+        <section>
           <AnimatedSection direction="left">
-            <h3 className="text-2xl font-bold text-pink-400">Why Choose Our Bot?</h3>
-            <p className="text-gray-300 mt-2">Useless Bot is a discord bot that can help you in some sort of way!</p>
-            <p className="text-gray-300 mt-2">Easily get the current weather and forecast of an area!</p>
-            <p className="text-gray-300 mt-2">Ask Questions to Ucy AI and get answers! Or use Flux 1 image gen to create amazing images!</p>
-            <p className="text-gray-300 mt-2">Get some jokes!</p>
-            <p className="text-gray-300 mt-2">We have memes!</p>
-            <p className="text-gray-300 mt-2">Play some games!</p>
-            <p className="text-gray-300 mt-2">Or use economy and grind!</p>
+            <h3>Why Choose Our Bot?</h3>
+            <p>Useless Bot is a discord bot that can help you in some sort of way!</p>
+            <p>Easily get the current weather and forecast of an area!</p>
+            <p>Ask Questions to Ucy AI and get answers! Or use Flux 1 image gen to create amazing images!</p>
+            <p>Get some jokes!</p>
+            <p>We have memes!</p>
+            <p>Play some games!</p>
+            <p>Or use economy and grind!</p>
           </AnimatedSection>
         </section>
 
-        <section className="mt-16 px-6">
+        <section>
           <AnimatedSection direction="right">
-            <h3 className="text-2xl font-bold text-pink-400">Useless Bot Server Count</h3>
+            <h3>Useless Bot Server Count</h3>
             
             <p className="server-text">The amount of servers our Discord bot is in is over:{" "}
             <span className="server-count">
@@ -296,12 +294,12 @@ export default function Home() {
           </AnimatedSection>
         </section>
 
-        <section className="mt-16 px-6">
+        <section>
           <AnimatedSection direction="left">
-            <h3 className="text-2xl font-bold text-pink-400">Join Our Community</h3>
-            <p className="text-gray-300 mt-2">Become part of our Discord community and get support instantly!</p>
+            <h3>Join Our Community</h3>
+            <p>Become part of our Discord community and get support instantly!</p>
 
-            <div className="buttonFlex gap-4 mt-4">
+            <div>
               <CustomButton onClick={() => window.open("https://discord.com/invite/zsUuNxf", "_blank")}>
                 Join Discord Server
               </CustomButton>
@@ -312,10 +310,10 @@ export default function Home() {
           </AnimatedSection>
         </section>
 
-        <section className="mt-16 px-6">
+        <section>
           <AnimatedSection direction="right">
-            <h3 className="text-2xl font-bold text-pink-400">Premium Features</h3>
-            <p className="text-gray-300 mt-2">Upgrade for even more powerful commands!</p>
+            <h3>Premium Features</h3>
+            <p>Upgrade for even more powerful commands!</p>
           </AnimatedSection>
         </section>
       </div>

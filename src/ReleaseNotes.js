@@ -23,7 +23,6 @@ function AnimatedSection({ children, direction = "left" }) {
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={sectionVariants[direction]}
-      className="bg-[#23272A] p-6 rounded-lg shadow-lg mb-6"
     >
       {children}
     </motion.div>
@@ -43,30 +42,30 @@ export default function ReleaseNotes() {
   }, []);
 
   return (
-    <div className="relative min-h-screen overflow-hidden">
-      <div className="absolute inset-0 -z-10">
+    <div>
+      <div>
         <CustomAnimation color={customColor} />
         {/*<AnimatedBackground animationName="auroraBorealis" blendMode="normal" />*/}
       </div>
 
-      <div className="relative z-10 min-h-screen">
+      <div>
         <Nav />
 
-        <header className="flex flex-col items-center justify-center text-center mt-16">
-          <img src={uselessBotImage} alt="Bot Logo" className="w-32 h-32 mb-4" />
-          <h2 className="text-4xl font-bold text-pink-400">Release Notes</h2>
-          <p className="text-gray-300 mt-2">Stay up-to-date with the latest updates!</p>
+        <header>
+          <img src={uselessBotImage} alt="Bot Logo" />
+          <h2>Release Notes</h2>
+          <p>Stay up-to-date with the latest updates!</p>
         </header>
 
-        <section className="mt-12 px-6 max-w-3xl mx-auto">
+        <section>
           {releaseNotes.map((note, index) => (
             <AnimatedSection direction={index % 2 === 0 ? "left" : "right"} key={note.version}>
-              <h3 className="text-2xl text-pink-300 text-center font-bold">{note.version}</h3>
-              <p className="text-sm text-gray-400 text-center mb-4">Released: {note.date}</p>
+              <h3>{note.version}</h3>
+              <p>Released: {note.date}</p>
               {Object.entries(note.sections).map(([sectionTitle, items]) => (
                 <div key={sectionTitle} className="fixDiv">
-                    <h4 className="text-xl text-pink-400 font-semibold mb-2">{sectionTitle}</h4>
-                    <ul className="list-disc list-inside text-gray-200 space-y-2">
+                    <h4>{sectionTitle}</h4>
+                    <ul>
                     {items.map((item, i) => (
                         <li key={i}>{item}</li>
                     ))}
