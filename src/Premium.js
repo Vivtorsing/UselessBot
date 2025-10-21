@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { Helmet } from 'react-helmet-async';
 import { AnimatedBackground } from "animated-backgrounds";
 import "./styles.css";
 import Footer from "./Footer";
@@ -53,6 +54,11 @@ export default function Premium() {
 
   return (
     <div>
+      {/*seo*/}
+      <Helmet>
+        <title>Useless Bot Premium</title>
+        <meta name="description" content="Premium Features for Useless Bot!" />
+      </Helmet>
       {/*background*/}
       <div>
         <CustomAnimation color={customColor}/>

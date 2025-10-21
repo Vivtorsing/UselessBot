@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { Helmet } from 'react-helmet-async';
 import { AnimatedBackground } from "animated-backgrounds";
 import "./styles.css";
 import Footer from "./Footer";
@@ -76,6 +77,11 @@ export default function Staff() {
 
   return (
     <div>
+      {/*seo*/}
+      <Helmet>
+        <title>Useless Bot Staff</title>
+        <meta name="description" content="The creators and teacher of Useless Bot!" />
+      </Helmet>
       {/*background*/}
       <div>
         <CustomAnimation color={customColor}/>

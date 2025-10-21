@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { Helmet } from 'react-helmet-async';
 import { AnimatedBackground } from "animated-backgrounds";
 import "./styles.css";
 import Footer from "./Footer";
@@ -43,6 +44,11 @@ export default function ReleaseNotes() {
 
   return (
     <div>
+      {/*seo*/}
+      <Helmet>
+        <title>Useless Bot Release Notes</title>
+        <meta name="description" content="Release Notes for Useless Bot" />
+      </Helmet>
       <div>
         <CustomAnimation color={customColor} />
         {/*<AnimatedBackground animationName="auroraBorealis" blendMode="normal" />*/}

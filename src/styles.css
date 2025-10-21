@@ -62,6 +62,8 @@ header p {
 
 button {
     margin-top: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 12px 24px;
     background-color: #FF85B3;
     color: white;

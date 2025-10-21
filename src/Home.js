@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, useInView, AnimatePresence, useScroll, useTransform } from "framer-motion";
+import { Helmet } from 'react-helmet-async';
 import { AnimatedBackground } from "animated-backgrounds";
 import SlotCounter from 'react-slot-counter';
 import "./styles.css";
@@ -199,6 +200,11 @@ export default function Home() {
 
   return (
     <div>
+      {/*seo*/}
+      <Helmet>
+        <title>Useless Bot</title>
+        <meta name="description" content="Useless Bot is a Discord multipurpose bot that tells you the weather, forecast, ChatGPT 4o, AI chat, Flux image generations, jokes, memes, minesweeper, anime, minecraft, 8ball" />
+      </Helmet>
       {/*background*/}
       <div>
         <CustomAnimation/>
@@ -285,8 +291,8 @@ export default function Home() {
             <p className="server-text">The amount of servers our Discord bot is in is over:{" "}
             <span className="server-count">
               <SlotCounter
-                startValue={"0,000"}
-                value="9,435"
+                startValue={"00,000"}
+                value="10,235"
                 duration={2}
                 animateOnVisible={{ triggerOnce: false, rootMargin: '0px 0px -100px 0px' }}
               />
@@ -299,14 +305,12 @@ export default function Home() {
             <h3>Join Our Community</h3>
             <p>Become part of our Discord community and get support instantly!</p>
 
-            <div>
-              <CustomButton onClick={() => window.open("https://discord.com/invite/zsUuNxf", "_blank")}>
-                Join Discord Server
-              </CustomButton>
-              <CustomButton onClick={() => window.open("https://trello.com/b/wmocgz3u/useless-bot", "_blank")}>
-                Join Teaching Room
-              </CustomButton>
-            </div>
+            <CustomButton onClick={() => window.open("https://discord.com/invite/zsUuNxf", "_blank")}>
+              Join Discord Server
+            </CustomButton>
+            <CustomButton onClick={() => window.open("https://trello.com/b/wmocgz3u/useless-bot", "_blank")}>
+              Join Teaching Room
+            </CustomButton>
           </AnimatedSection>
         </section>
 

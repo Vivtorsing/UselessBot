@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { Helmet } from 'react-helmet-async';
 import { AnimatedBackground } from "animated-backgrounds";
 import Footer from "./Footer";
 import Nav from "./Nav";
@@ -113,6 +114,11 @@ export default function Commands() {
 
   return (
     <div>
+      {/*seo*/}
+      <Helmet>
+        <title>Useless Bot Commands</title>
+        <meta name="description" content="All the commands for Useless Bot" />
+      </Helmet>
       {/*background*/}
       <div>
         <CustomAnimation color={customColor}/>
