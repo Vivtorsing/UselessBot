@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/UselessBot/static/css/main.7054cc97.css",
-    "main.js": "/UselessBot/static/js/main.1f63ec56.js",
+    "main.css": "/UselessBot/static/css/main.eb6408b2.css",
+    "main.js": "/UselessBot/static/js/main.f5ec5ef9.js",
     "static/js/453.9bd4468b.chunk.js": "/UselessBot/static/js/453.9bd4468b.chunk.js",
     "static/media/aiChat.gif": "/UselessBot/static/media/aiChat.9222497117c353520233.gif",
     "static/media/aiImageForest.png": "/UselessBot/static/media/aiImageForest.bf5440d6cb37720d29de.png",
@@ -15,12 +15,12 @@
     "static/media/weatherFree.png": "/UselessBot/static/media/weatherFree.fe3f57894a7ae484c0bf.png",
     "static/media/uselessbot.png": "/UselessBot/static/media/uselessbot.1ef71250a9361ffb8276.png",
     "index.html": "/UselessBot/index.html",
-    "main.7054cc97.css.map": "/UselessBot/static/css/main.7054cc97.css.map",
-    "main.1f63ec56.js.map": "/UselessBot/static/js/main.1f63ec56.js.map",
+    "main.eb6408b2.css.map": "/UselessBot/static/css/main.eb6408b2.css.map",
+    "main.f5ec5ef9.js.map": "/UselessBot/static/js/main.f5ec5ef9.js.map",
     "453.9bd4468b.chunk.js.map": "/UselessBot/static/js/453.9bd4468b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7054cc97.css",
-    "static/js/main.1f63ec56.js"
+    "static/css/main.eb6408b2.css",
+    "static/js/main.f5ec5ef9.js"
   ]
 }
