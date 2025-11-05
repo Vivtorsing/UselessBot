@@ -1,7 +1,22 @@
-import { version } from "react";
-import { data } from "react-router-dom";
-
 const releaseNotes = [
+  {
+    version: "V3.0 Pre Release 5",
+    date: "September 30, 2025",
+    sections: {
+      "Massive Changes": [
+        "/setting - Added a setting command which allows users to change their weather information to metric or imperial!",
+        "A requested feature that been asked for over 3+ years which was complicated due to how the weather command used to be but now is very easy and possible but also should have came out like 4 months ago lol...",
+      ],
+      "Bug Fixes": [
+        "/rps - Added emojis so you can easily tell what item you used (I believe I had this before but then it got removed...)",
+        "DMAI - Fixed a weird bug where direct messages to Useless Bot makes the Useless Bot Is Typing disappear too early",
+        "/ai speech - Fixed it and should be working now!"
+      ],
+      "Broken Stuff": [
+        "/ai search - is now deprecated as my AI provides also removed it."
+      ]
+    }
+  },
   {
     version: "V3.0 Pre Release 4",
     date: "June 9, 2025",
