@@ -50,22 +50,32 @@ function AnimatedSection({ children, direction = "left" }) {
 //all the developers
 const developers = [
   {
+    name: "Vivtorsing",
+    role: "Lead Software Engineer",
+    description: "Built the core features and optimized the bot! Also built this webpage!",
+    image: UselessBotImage,
+    youtube: "https://youtube.com/vivtorsing"
+  },
+  {
     name: "V",
-    description: "Software Engineer - Implemented many features to the bot!",
+    role: "Software Engineer",
+    description: "Implemented many features to the bot!",
     image: UselessBotImage,
     youtube: ""
   },
   {
-    name: "Vivtorsing",
-    description: "Lead Software Engineer - Built the core features and optimized the bot! Also built this webpage!",
+    name: "Vivtoria",
+    role: "Bug Tester",
+    description: "Wait why are you here?",
     image: UselessBotImage,
     youtube: "https://youtube.com/vivtorsing"
   },
   {
-    name: "Vivtoria",
-    description: "Bug Tester - Wait why are you here?",
+    name: "Sugar",
+    role: "Artist",
+    description: "Created the Card template!",
     image: UselessBotImage,
-    youtube: "https://youtube.com/vivtorsing"
+    youtube: ""
   }
 ];
   
@@ -111,6 +121,7 @@ export default function Staff() {
                     <div key={index} className="staff-card">
                     <img src={dev.image} alt={dev.name} className="staff-image" />
                     <h4 className="staff-name">{dev.name}</h4>
+                    <h5 className="staff-role">{dev.role}</h5>
                     <p className="staff-description">{dev.description}</p>
                     {dev.youtube && (
                         <a href={dev.youtube} target="_blank" rel="noopener noreferrer" className="youtube-link">
