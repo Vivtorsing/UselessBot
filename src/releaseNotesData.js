@@ -1,5 +1,28 @@
 const releaseNotes = [
   {
+    version: "V3.1 Pre Release 1",
+    date: "November 26, 2025",
+    sections: {
+      "New Features": [
+        "Added the weird card game I was talking about before!",
+        "This is a super alpha phase where I just want anyone to play around with it and see if they like it or not.",
+        "The card template is made by Sugar which looks amazing!",
+        "One thing to note is that 99% of cards are AI images however I do want to have someone in the community or allow community cards into this game as right now I just spun a wheel with a bunch of random things on it lol. I did not want to spend hours drawing all the cards and I even back down from my original amount of cards I wanted to add. So please let me know on this as I already implemented a system to even credit artist if they make a card! (I did make 2 cards too!)",
+        "/cards - Where you can view all the cards you own",
+        "/cardshop - Where you can buy new cards or get a free daily card pack!",
+        "/cardteam - Where you can create a team up to 5 cards to go to battle!",
+        "/cardbattle - Where you can battle enemies for card fragments every 2 hours!",
+      ],
+      "Changes": [
+        "The old /card is renamed to /randomcard. I was going to remove this command but I am going to leave it for now.",
+      ],
+      "Bug Fixes": [
+        "Finally fixed the server count lol! I spent how many years on this and a dumb idea became the best solution...",
+        "A few commands got some cleanup but nothing crazy!"
+      ]
+    }
+  },
+  {
     version: "V3.0 Pre Release 5",
     date: "September 30, 2025",
     sections: {
