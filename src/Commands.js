@@ -60,7 +60,8 @@ const commandCategories = {
     { name: "/invite", description: "Where you can invite Useless Bot to your server" },
     { name: "/server", description: "Where you can join Useless Bot's server" },
     { name: "/version", description: "To check Useless Bot's version" },
-    { name: "/vote", description: "Where you can vote for Useless Bot and get some perks" }
+    { name: "/vote", description: "Where you can vote for Useless Bot and get some perks" },
+    { name: "/setting", description: "Where you can change Useless Bot Settings like weather metrics" }
   ],
   Fun: [
     { name: "/ai chat (message)", description: "Where you can talk to Ucy AI" },
@@ -86,7 +87,7 @@ const commandCategories = {
   ],
   Silly: [
     { name: "/birthday", description: "Where you can tell Useless Bot Happy Birthday" },
-    { name: "/card", description: "Where you can get a random card" },
+    { name: "/randomcard", description: "Where you can get a random card" },
     { name: "/code (encode/decode) (message)", description: "Where you can encode or decode your message" },
     { name: "/8ball (question)", description: "Where you can get a question and get a response" },
     { name: "/fruit", description: "Where Useless Bot gives you a random fruit" },
@@ -104,6 +105,12 @@ const commandCategories = {
     { name: "/stats (user)", description: "Where you can check your stats" },
     { name: "/upgrade (upgrade)", description: "Where you can buy upgrades for your shops" },
     { name: "/work", description: "Where you can work for money" }
+  ],
+  Card: [
+    { name: "/cards", description: "Where you can check all your cards"},
+    { name: "/cardshop", description: "Where you can buy cards or get free card packs"},
+    { name: "/cardteam", description: "Where you can create your card team"},
+    { name: "/cardbattle", description: "Where you can take your card team to battle"}
   ]
 }
 
